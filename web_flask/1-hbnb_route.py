@@ -12,7 +12,7 @@ def Hello():
     return "Hello HBNB!"
 
 
-@app.route('/', strict_slashes=False)
+@app.route('/hbnb', strict_slashes=False)
 def Hello():
     """say hbnb"""
     return "HBNB"
